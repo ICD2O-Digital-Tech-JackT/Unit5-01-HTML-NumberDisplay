@@ -1,7 +1,8 @@
+/*Background*/
 html {
   background-color: #c1d3f0;
 }
-
+/*Header*/
 h1 {
   font-family: monospace;
   color: #002766;
@@ -9,24 +10,24 @@ h1 {
   padding: 20px;
   margin: 0;
 }
-
+/*Text*/
 p {
   color: #032859;
   font-weight: 800;
   font-size: 17px;
   font-family: 'Courier New', Courier, monospace;
 }
-
+/*Table h*/
 th {
   padding: 10px;
   background-color: #e5ebff;
 }
-
+/*Table d*/
 td {
   padding: 10px;
   background-color: #b8bff5;
 }
-
+/*Table*/
 table {
   border-spacing: 10px;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- meta data, css and title -->
     <title>Number Display JS</title>
     <link rel="stylesheet" href="/css/style.css">
     <!-- Favicon -->
@@ -10,17 +11,22 @@
     <link rel="manifest" href="/favicon/site.webmanifest">
   </head>
   <body>
+    <!-- script to link to my js file -->
     <script src="/js/script.js"></script>
+     <!-- Instructional and title text -->
     <h1>Number display loop</h1>
     <br>
     <p>Please enter 2 numbers:</p>
+    <!-- table with all of the main elements aside from the header-->
     <center>
       <table>
         <tr>
           <th>
+            <!-- Image in table -->
             <img src="images/number.jpg" style="width: 250px;"> 
           </th>
           <td>
+            <!-- Where min and max numbers are entered -->
             <p>Enter your min number:</p> <br>
             <input id="min" placeholder="number less than max" type="number" step="1">
             <br>
@@ -28,9 +34,10 @@
             <input id="max" placeholder="number greater than min" type="number" step="1">
             <br>
             <br>
+             <!-- Submit button -->
             <button onclick="Submit()" id="Submit">Submit</button>
             <br>
-            <div id="Output"> <p>Result:</p> </div>
+             <!-- Where result is displayed -->
             <div id="Result"></div>
           </td>
         </tr>

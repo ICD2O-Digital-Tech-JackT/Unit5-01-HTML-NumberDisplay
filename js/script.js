@@ -6,10 +6,12 @@ function Submit(){
   if (min&&max){
     //Checking if min is less than max
     if (Number(min)<Number(max)){
+      let currentNumber = Number(min)-1;
       let result = "";
       //looping through each number, and adding it to the result
-      for (let i=Number(min); i<=Number(max); i++){
-        result += i + " ";
+      while (currentNumber<Number(max)){
+        currentNumber +=1
+        result += currentNumber + " ";
       }
       //display result
       document.getElementById('Result').innerHTML = result;

@@ -1,9 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Number Display JS</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
   </head>
   <body>
-    <p>Paragraph</p>
+    <script src="/js/script.js"></script>
+    <h1>Number display loop</h1>
+    <br>
+    <p>Please enter 2 numbers:</p>
+    <center>
+      <table>
+        <tr>
+          <th>
+            <img src="images/number.jpg" style="width: 250px;"> 
+          </th>
+          <td>
+            <p>Enter your min number:</p> <br>
+            <input id="min" placeholder="number less than max" type="number" step="1">
+            <br>
+            <p>Enter your max number:</p> <br>
+            <input id="max" placeholder="number greater than min" type="number" step="1">
+            <br>
+            <br>
+            <button onclick="Submit()" id="Submit">Submit</button>
+            <br>
+            <div id="Output"> <p>Result:</p> </div>
+            <div id="Result"></div>
+          </td>
+        </tr>
+      </table>
+    </center>
   </body>
 </html>
